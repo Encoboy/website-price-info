@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "price info",
+  "version": "1.0",
+  "description": "价格信息",
+  "author": "enco-x",
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.fashionnova.com/*"],
+      "css": ["main.css"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
